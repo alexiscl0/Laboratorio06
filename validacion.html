@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion</title>
+</head>
+<body>
+    <h1>Validacion</h1>
+    <nav>
+        <li><a href="index.html">Pagina principal</a></li>
+        <li><a href="lenguajes.html">Lenguajes de Programacion</a></li>
+        <li><a href="registro.html">Registro</a></li>
+    </nav>
+    <form action="#" method="post">
+        <label for="correo">Correo: </label>
+        <input type="text" name="correo" id="correo" placeholder="Ecribe tu correo" required>
+        <br><br>
+        <label for="contraseña">Contraseña: </label>
+        <input type="password" name="contraseña" id="contraseña" pattern="[0-9]{9}" required>
+        <br><br>
+        <label for="confircontraseña">Confirmar Contraseña: </label>
+        <input type="password" name="contraseña" id="confircontraseña" pattern="">
+        <br><br>
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>
